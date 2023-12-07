@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Silkscreen:400,500,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Silkscreen', sans-serif;
+}
+
+header{
+    background-color: #4ce4a8;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 2em;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    top: 25%;
+}
+
+#sujet{
+    text-align: justify;
+    padding: 2em;
+    text-decoration: none;
+    background-image: url('/data/arbre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragraphe{
+    text-align: justify;
+    padding: 2em;
+    text-decoration: none;
+    background-color: #B0F2B6;
+}
