@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +12,34 @@
         <li><a href="page1.html">Page 1</a></li>
         <li><a href="page2.html">Page 2</a></li>
         <li><a href="page3.html">Page 3</a></li>
+        <li><a href="page4.html">Page 4</a></li>
     </ul>
 </header>
 <body>
     <div id="sujet">
-        <h1>ALED</h1>
+        <h1>Les jeunes pousses</h1>
         <div class="paragraphe">
             <h2>Le changement climatique</h2>
             <p>
-                Le changement climatique est un changement durable de la distribution statistique des motifs météorologiques sur des périodes de temps prolongées (de décennies à des millions d'années). Ces changements peuvent être dus à des processus naturels intrinsèques à la Terre, à des facteurs externes variés (orbite terrestre, rayonnement solaire, éruptions volcaniques), à des interactions entre ces facteurs, ou à des changements anthropiques (activités humaines).
+                Le changement climatique est un changement durable de la distribution statistique des motifs 
+                météorologiques sur des périodes de temps prolongées (de décennies à des millions d'années).
+                Ces changements peuvent être dus à des processus naturels intrinsèques à la Terre, à des facteurs 
+                externes variés (orbite terrestre, rayonnement solaire, éruptions volcaniques), à des interactions 
+                entre ces facteurs, ou à des changements anthropiques (activités humaines).
             </p>
         </div>
     </div>
     <div id="menu">
         <div  onclick="navigateToPage('page1.html')">Page 1</div>
-        <div class="leaf" onclick="navigateToPage('page2.html')">Page 2</div>
-        <div class="leaf" onclick="navigateToPage('page3.html')">Page 3</div>
+        <div  onclick="navigateToPage('page2.html')">Page 2</div>
+        <div  onclick="navigateToPage('page3.html')">Page 3</div>
+        <div onclick="navigateToPage('page4.html')">Page 4</div>
     </div>
     <script src="index.js"></script>
 </body>
+<footer>
+    <p>Eh ! Consultez le GIEC :
+        <a href="https://www.ipcc.ch/">GIEC, le big boss</a>
+    </p>
+</footer>
 </html>

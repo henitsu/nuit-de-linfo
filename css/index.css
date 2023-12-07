@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Silkscreen:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 
 body {
     margin: 0;
@@ -8,6 +9,7 @@ body {
 
 h1{
     font-family: 'Silkscreen', sans-serif;
+    color: white;
 }
 
 header{
@@ -24,7 +26,7 @@ ul{
 
 li{
     display: inline;
-    padding: 2em;
+    padding: 1em;
     text-decoration: none;
 }
 
@@ -33,8 +35,13 @@ a{
     color: black;
 }
 
+a:hover{
+    color: white;
+}
+
 h1{
     top: 25%;
+    text-align: center;
 }
 
 #sujet{
@@ -51,4 +58,23 @@ h1{
     padding: 2em;
     text-decoration: none;
     background-color: #B0F2B6;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #4ce4a8;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    li{
+        padding: 4em;
+    }
 }
