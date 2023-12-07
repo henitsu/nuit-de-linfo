@@ -64,9 +64,11 @@ h1{
 footer{
     background-color: #4ce4a8;
     width: 100%;
-    position: absolute;
     bottom: 0;
     text-decoration: none;
+    margin-top: auto;
+    position: absolute;
+    display: block;
 }
 
 footer p{
