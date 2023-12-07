@@ -14,3 +14,30 @@
     background-color: #B0F2B6;
     border-radius: 20px;
 }
+
+#menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.menu{
+    text-align: center;
+    margin: 2em;
+    text-decoration: none;
+    background-color: #B0F2B6;
+    border-radius: 20px;
+}
+
+img{
+    grid-template-columns: auto auto;
+    padding: auto;
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+}

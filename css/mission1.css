@@ -1,0 +1,26 @@
+.acteurs img{
+    align-items: center;
+    height: 100px;
+}
+
+.acteurs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+
+@media screen and (width>=1000px){
+    .acteurs{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2em;
+    }    
+}
