@@ -1,4 +1,10 @@
 #graphique{
     width: 50%;
-    justify-self: center;
+    margin-left: 30%;
+}
+
+@media screen and (width < 1000px) {
+    #graphique{
+        width: 60%;
+    }
 }

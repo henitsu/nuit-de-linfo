@@ -13,6 +13,14 @@
     margin: 2em;
 }
 
+.acteurs_intitule{
+    text-align:center;
+}
+
+.acteurs_explication{
+    text-align:justify;
+}
+
 #photos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

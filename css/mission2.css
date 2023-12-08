@@ -48,6 +48,10 @@
     transform: rotateY(180deg);
   }
 
+  .flip-card-back p{
+    text-align: center;
+  }
+
   #idees_recues{
     display: grid;
     gap:2em;
