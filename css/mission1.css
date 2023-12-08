@@ -24,3 +24,20 @@
         margin: 2em;
     }    
 }
+
+#fonte_glace img {
+    margin-left: 15px;
+    height: 250px;
+    width: 300px;
+}
+
+#inondation img {
+    height: 250px;
+    width: 300px;
+}
+
+#incendie img {
+    height: 250px;
+    width: 300px;
+}
+
