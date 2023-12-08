@@ -5,6 +5,15 @@
 
 #reboisement img{
     margin-left: 15px;
-    height: 250px;
-    width: 500px;
+    height: auto;
+    width: auto;
+}
+
+#contenu{
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em;
 }
