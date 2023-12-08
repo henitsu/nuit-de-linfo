@@ -50,6 +50,21 @@ a:hover{
     color: white;
 }
 
+.boutons{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.button{
+    background-color: #4ce4a8;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+    width: 40%;
+}
 
 footer{
     background-color: #4ce4a8;
