@@ -20,7 +20,7 @@ const chart = new Chart(ctx,
             },
             title: {
                 display: true,
-                text: 'Emissions de gaz à effet de serre en France par activité en 2021 (en millions de tonnnes équivalent CO2)',
+                text: 'Emissions de gaz à effet de serre en France par activité en 2021 (en millions de tonnnes équivalent CO2) source : INSEE',
                 font: {
                     size: 20,
                     fontFamily: 'Montserrat',
