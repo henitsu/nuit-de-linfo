@@ -2,7 +2,7 @@
     text-align: justify;
     padding: 2em;
     text-decoration: none;
-    background-image: url('/data/arbre.jpg');
+    background-image: url('data/arbre.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
