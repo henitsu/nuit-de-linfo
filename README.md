@@ -1,4 +1,4 @@
-# henitsu.github.io
+# nuit-de-linfo
 Projet pour la Nuit de l'Informatique en 2023.
 Réalisé par l'équipe Nocturne Op.9 No.2.
 
